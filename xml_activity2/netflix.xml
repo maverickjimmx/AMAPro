@@ -1,0 +1,33 @@
+<movies>
+ <movie>
+    <title>AVATAR</title>
+    <genre>Fantasy</genre>
+    <release>2009</release>
+    <director>James Cameron</director>
+ </movie>
+ <movie>
+    <title>Solo Leveling</title>
+    <genre>Animation</genre>
+    <release>2024</release>
+    <director>Shunsuke Nakashige</director>
+ </movie>
+ <movie>
+    <title>Deadpool & Wolverine</title>
+    <genre>Action</genre>
+    <release>2024</release>
+    <director>Shawn Levy</director>
+ </movie>
+ <movie>
+    <title>Avengers: Infinity War</title>
+    <genre></genre>
+    <release>2018</release>
+    <director>Anthony Russo</director>
+ </movie>
+ <movie>
+    <title>Godzilla x Kong: The New Empire</title>
+    <genre>Science Fiction</genre>
+    <release>2024</release>
+    <director>Adam Wingard</director>
+ </movie>
+
+</movies>
