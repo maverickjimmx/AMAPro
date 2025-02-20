@@ -1,19 +1,63 @@
-<!DOCTYPE html>
+
 <html>
 <head>
-    <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <title>Page Title</title>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
-    <script src='main.js'></script>
+    <title>Students Record</title>
     <style>
-       table, th, td {border: 1px solid blue;} 
+        .table-container{
+            width: 100%;
+            overflow-x: auto;
+        }
+       table {
+            width: 100%;
+            border-collapse: collapse;
+            min-width: 600px;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+            text-align: center;
+        }
+        
+        /* responsive table */
+        @media (max-width: 600px) {
+    table {
+        border: 0;
+    }
+
+    thead {
+        display: none; /* Hide table headers on small screens */
+    }
+
+    tr {
+        display: block;
+        margin-bottom: 10px;
+        border: 1px solid #ccc;
+        padding: 10px;
+    }
+
+    td {
+        display: block;
+        text-align: right;
+        position: relative;
+        padding-left: 50%;
+    }
+
+    td::before {
+        content: attr(data-label);
+        position: absolute;
+        left: 10px;
+        font-weight: bold;
+        text-align: left;
+    }
+}
+
     </style>
 </head>
 <body>
     <h1>STUDENT RECORDS</h1>
-    <table>
+    <div class="table-container">
+    <table id="studentTable">
+    <thead>
     <tr>
         <th>STUDENT ID</th>
         <th>LASTNAME</th>
@@ -22,39 +66,37 @@
         <th>COURSE</th>
         <th>EMAIL</th>
     </tr>
-    <tr>
-        <td>19004745200</td>
-        <td>BLADE</td>
-        <td>JIM</td>
-        <td>30</td>
-        <td>Information Tech</td>
-        <td>jimmxblade@gmail.com</td>
-    </tr>
+    </thead>
+    <tbody>
+    </tbody>
     </table>
+    </div>
     <script>
-        function loadXML() {
-            fetch('students.xml')
+        fetch('students.xml')
             .then(response => response.text())
-            .then(str => {
-                const parser = new DOMParser();
-                const xmlDoc = parser.parseFromString(str, "application/xml");
+            .then(xmlText => {
+                let parser = new DOMParser();
+                let xmlDoc = parser.parseFromString(xmlText, "text/xml");
 
-                const student = xmlDoc.getElementsByTagName('student');
-                let output = '<ul>';
-                
-                for (let i = 0; i <student.length; i++) {
-                    const studentID = students[i].getElementsByTagName('studentID') [0].textContent;
-                    const lastName = students[i].getElementsByTagName('lastName') [0].textContent;
-                    const firstName = students[i].getElementsByTagName('firstName') [0].textContent;
-                    const age = students[i].getElementsByTagName('age') [0].textContent;
-                    const course = students[i].getElementsByTagName('course') [0].textContent;
-                    const email = students[i].getElementsByTagName('email') [0].textContent;
-                    output += '<li><strong>${studentID}</strong> by ${lastName}</li>';
+                let students = xmlDoc.getElementsByTagName("student");
+                let tableBody = document.querySelector("#studentTable tbody");
+
+                for (let i = 0; i < students.length; i++) {
+                    let studentID = students[i].getElementsByTagName("studentID")[0].textContent;
+                    let lastName = students[i].getElementsByTagName("lastName")[0].textContent;
+                    let firstName = students[i].getElementsByTagName("firstName")[0].textContent;
+                    let age = students[i].getElementsByTagName("age")[0].textContent;
+                    let course = students[i].getElementsByTagName("course")[0].textContent;
+                    let email = students[i].getElementsByTagName("email")[0].textContent;
+
+                    // Create a table row and insert data
+                    let row = document.createElement("tr");
+                    row.innerHTML = `<td data-label="STUDENT ID">${studentID}</td><td data-label="LASTNAME">${lastName}</td><td data-label="FIRSTNAME">${firstName}</td><td data-label="AGE">${age}</td><td data-label="COURSE">${course}</td><td data-label="EMAIL">${email}</td>`;
+
+                    tableBody.appendChild(row);
                 }
-                output += '</ul>';
-                document.getElementById()
             })
-        }
+            .catch(error => console.log('Error loading XML:', error));
     </script>
 </body>
 </html>
