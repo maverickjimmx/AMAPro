@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<movies xmlns="https://www.themoviedb.org/">
+    <movie>
+        <title>Captain America: Civil War</title>
+        <year>2016</year>
+        <genre>Science Fiction</genre>
+        <director>Anthony Russo</director>
+        <summary>Following the events of Age of Ultron, the collective governments of the world pass an act designed to regulate all superhuman activity.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg</poster>
+        <url>https://www.themoviedb.org/movie/271110-captain-america-civil-war</url>
+    </movie>
+    <movie>
+        <title>Fast X (2023)</title>
+        <year>2023</year>
+        <genre>Action, Sci-Fi</genre>
+        <director>ouis Leterrier</director>
+        <summary>Over many missions and against impossible odds, Dom Toretto and his family have outsmarted, out-nerved and outdriven every foe in their path. Now, they confront the most lethal opponent they've ever faced:.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/pAe4mqaHI7wOS7vz4btYAiX4UVN.jpg</poster>
+        <url>https://www.themoviedb.org/movie/385687-fast-x</url>
+    </movie>
+    <movie>
+        <title>The Lord of the Rings: The Return of the King</title>
+        <year>2003</year>
+        <genre>Adventure, Fantasy</genre>
+        <director>Peter Jackson</director>
+        <summary>As armies mass for a final battle that will decide the fate of the world--and powerful, ancient forces of Light and Dark compete to determine the outcome--one member of the Fellowship of the Ring is revealed as the noble heir to the throne of the Kings of Men..</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/rCzpDGLbOoPwLjy3OAm5NUPOTrC.jpg</poster>
+        <url>https://www.themoviedb.org/movie/122-the-lord-of-the-rings-the-return-of-the-king</url>
+    </movie>
+    <movie>
+        <title>Avatar: The Way of Water</title>
+        <year>2022</year>
+        <genre>Sci-Fi, Adventure</genre>
+        <director>Hames Cameron</director>
+        <summary>Set more than a decade after the events of the first film, learn the story of the Sully family (Jake, Neytiri, and their kids), the trouble that follows them, the lengths they go to keep each other safe, the battles they fight to stay alive, and the tragedies they endure</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/t6HIqrRAclMCA60NsSmeqe9RmNV.jpg</poster>
+        <url>https://www.themoviedb.org/movie/76600-avatar-the-way-of-water</url>
+    </movie>
+    <movie>
+        <title>Twilight</title>
+        <year>2008</year>
+        <genre>Fantasy, Drama, Romance</genre>
+        <director>Catherine Hardwicke</director>
+        <summary>When Bella Swan moves to a small town in the Pacific Northwest, she falls in love with Edward Cullen, a mysterious classmate who reveals himself to be a 108-year-old vampire. Despite Edward's repeated cautions, Bella can't stay away from him, a fatal move that endangers her own life</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/3Gkb6jm6962ADUPaCBqzz9CTbn9.jpg</poster>
+        <url>https://www.themoviedb.org/movie/8966-twilight</url>
+    </movie>
+    <movie>
+        <title>Gladiator</title>
+        <year>2000</year>
+        <genre>Action, Drama</genre>
+        <director>David Franzoni</director>
+        <summary>After the death of Emperor Marcus Aurelius, his devious son takes power and demotes Maximus, one of Rome's most capable generals who Marcus preferred. Eventually, Maximus is forced to become a gladiator and battle to the death against other men for the amusement of paying audiences.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/ty8TGRuvJLPUmAR1H1nRIsgwvim.jpg</poster>
+        <url>https://www.themoviedb.org/movie/98-gladiator</url>
+    </movie>
+    <movie>
+        <title>The Hobbit: The Battle of the Five Armies</title>
+        <year>2014</year>
+        <genre>Action, Fantasy</genre>
+        <director>Peter Jackson</director>
+        <summary>Immediately after the events of The Desolation of Smaug, Bilbo and the dwarves try to defend Erebor's mountain of treasure from others who claim it: the men of the ruined Laketown and the elves of Mirkwood</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/xT98tLqatZPQApyRmlPL12LtiWp.jpg</poster>
+        <url>https://www.themoviedb.org/movie/122917-the-hobbit-the-battle-of-the-five-armies</url>
+    </movie>
+    <movie>
+        <title>The Wolf of Wall Street</title>
+        <year>2013</year>
+        <genre>Crime, Drama, Comedy</genre>
+        <director>Martin Scorsese</director>
+        <summary>A New York stockbroker refuses to cooperate in a large securities fraud case involving corruption on Wall Street, corporate banking world and mob infiltration. Based on Jordan Belfort's autobiography.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/kW9LmvYHAaS9iA0tHmZVq8hQYoq.jpg</poster>
+        <url>https://www.themoviedb.org/movie/106646-the-wolf-of-wall-street</url>
+    </movie>
+    <movie>
+        <title>Inception</title>
+        <year>2010</year>
+        <genre>Action, Sci-Fi</genre>
+        <director>Christopher Nolan</director>
+        <summary>Cobb, a skilled thief who commits corporate espionage by infiltrating the subconscious of his targets is offered a chance to regain his old life as payment for a task considered to be impossible: "inception", the implantation of another person's idea into a target's subconscious</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/ljsZTbVsrQSqZgWeep2B1QiDKuh.jpg</poster>
+        <url>https://www.themoviedb.org/movie/27205-inception</url>
+    </movie>
+    <movie>
+        <title>Inglourious Basterds</title>
+        <year>2009</year>
+        <genre>Drama, War</genre>
+        <director>Quentin Tarantino</director>
+        <summary>In Nazi-occupied France during World War II, a group of Jewish-American soldiers known as "The Basterds" are chosen specifically to spread fear throughout the Third Reich by scalping and brutally killing Nazis. The Basterds, lead by Lt. Aldo Raine soon cross paths with a French-Jewish teenage girl who runs a movie theater in Paris which is targeted by the soldiers.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/7sfbEnaARXDDhKm0CZ7D7uc2sbo.jpg</poster>
+        <url>https://www.themoviedb.org/movie/16869-inglourious-basterds</url>
+    </movie>
+    <movie>
+        <title>Parasite</title>
+        <year>2019</year>
+        <genre>Comedy, Thriller</genre>
+        <director>Bong Joon Ho</director>
+        <summary>All unemployed, Ki-taek's family takes peculiar interest in the wealthy and glamorous Parks for their livelihood until they get entangled in an unexpected incident.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/7IiTTgloJzvGI1TAYymCfbfl3vT.jpg</poster>
+        <url>https://www.themoviedb.org/movie/496243</url>
+    </movie>
+    <movie>
+        <title>Jujutsu Kaisen</title>
+        <year>2021</year>
+        <genre>Animation, Action, Fantasy</genre>
+        <director>Sunghoo Park</director>
+        <summary>Yuta Okkotsu is a nervous high school student who is suffering from a serious problem—his childhood friend Rika has turned into a curse and won't leave him alone. Since Rika is no ordinary curse, his plight is noticed by Satoru Gojo, a teacher at Jujutsu High, a school where fledgling exorcists learn how to combat curses. Gojo convinces Yuta to enroll, but can he learn enough in time to confront the curse that haunts him?</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/23oJaeBh0FDk2mQ2P240PU9Xxfh.jpg</poster>
+        <url>https://www.themoviedb.org/movie/810693-0</url>
+    </movie>
+    <movie>
+        <title>Braveheart</title>
+        <year>1995</year>
+        <genre>History, War, Action</genre>
+        <director>Randall Wallace</director>
+        <summary>Enraged at the slaughter of Murron, his new bride and childhood love, Scottish warrior William Wallace slays a platoon of the local English lord's soldiers. This leads the village to revolt and, eventually, the entire country to rise up against English rule.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/g8UItTLFApanO8rwDsl6qDjU9St.jpg</poster>
+        <url>https://www.themoviedb.org/movie/197-braveheart</url>
+    </movie>
+    <movie>
+        <title>How to train your dragon</title>
+        <year>2010</year>
+        <genre>Fantasy, Adventure</genre>
+        <director>Deab Deblois</director>
+        <summary>As the son of a Viking leader on the cusp of manhood, shy Hiccup Horrendous Haddock III faces a rite of passage: he must kill a dragon to prove his warrior mettle. But after downing a feared dragon, he realizes that he no longer wants to destroy it, and instead befriends the beast – which he names Toothless – much to the chagrin of his warrior father.</summary>
+        <poster>https://image.tmdb.org/t/p/w600_and_h900_bestv2/ygGmAO60t8GyqUo9xYeYxSZAR3b.jpg</poster>
+        <url>https://www.themoviedb.org/movie/10191-how-to-train-your-dragon</url>
+    </movie>
+</movies>

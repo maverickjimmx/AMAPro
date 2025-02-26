@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netflix Clone</title>
+    <style>
+        body {
+            /*background-color: #830505;*/
+            background-image: url('https://cdn.pixabay.com/photo/2013/07/12/15/03/abstract-149347_1280.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+            color: white;
+            font-family: Arial, sans-serif;
+            text-align: center;
+            padding-bottom: 50px;
+            margin: 0;
+        }
+        h1 {
+            margin-top: 20px;
+        }
+        .movies-container {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+            margin-top: 20px;
+        }
+        .movie-card {
+            width: 200px;
+            background: #4b040493;
+            padding: 10px;
+            border-radius: 10px;
+            text-align: center;
+        }
+        .movie-card h2 {
+            font-size: 16px;
+            margin: 10px 0;
+        }
+        .movie-card p {
+            font-size: 12px;
+            color: #bbb;
+        }
+
+        /* makes image resize */
+        .movie-card img {
+            width: 100%;
+            border-radius: 10px;
+            transition: transform 0.5s;
+        }
+        .movie-card img:hover {
+            transform: scale(1.1);
+        }
+
+        /* makes title same color even if clicked */
+        a {
+            color: white;
+            text-decoration: none;
+        }
+        a:{
+            color: white;
+        }
+        a:hover {
+            color: #ff0000;
+            text-decoration: underline;
+        }
+        a:active {
+            color: white;
+        }
+
+        footer {
+        background-color: #222;
+        color: white;
+        text-align: center;
+        padding: 5px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        height: 50px;
+        opacity: 1;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <h1>My Favorite Movies</h1>
+    <div class="movies-container" id="movies-list"></div>
+
+    <script>
+        // Fetch and parse the XML file
+        fetch('movies.xml')
+            .then(response => response.text())
+            .then(data => {
+                let parser = new DOMParser();
+                let xml = parser.parseFromString(data, "text/xml");
+                let movies = xml.getElementsByTagName("movie");
+
+                let movieContainer = document.getElementById("movies-list");
+
+                for (let movie of movies) {
+                    let title = movie.getElementsByTagName("title")[0].textContent;
+                    let year = movie.getElementsByTagName("year")[0].textContent;
+                    let genre = movie.getElementsByTagName("genre")[0].textContent;
+                    let director = movie.getElementsByTagName("director")[0].textContent;
+                    let summary = movie.getElementsByTagName("summary")[0].textContent;
+                    let poster = movie.getElementsByTagName("poster")[0].textContent;
+                    let url = movie.getElementsByTagName("url")[0].textContent;
+
+                    /* Note default static title only
+                    let movieCard = document.createElement("div");
+                    movieCard.classList.add("movie-card");
+                    movieCard.innerHTML = `
+                        <img src="${poster}" alt="${title}">
+                        <h2>${title} (${year})</h2>
+                        <p><strong>Genre:</strong> ${genre}</p>
+                        <p><strong>Director:</strong> ${director}</p>
+                        <p>${summary}</p>
+                    `; */
+
+                    /* Note clickable image and title */
+                    let movieCard = document.createElement("div");
+                    movieCard.classList.add("movie-card");
+                    movieCard.innerHTML = `
+                        <a href="${url}" target="_blank">
+                            <img src="${poster}" alt="${title}">
+                        </a>
+                        <h2><a href="${url}" target="_blank">${title} (${year})</a></h2>
+                        <p><strong>Genre:</strong> ${genre}</p>
+                        <p><strong>Director:</strong> ${director}</p>
+                        <p>${summary}</p>
+                    `;
+
+                    movieContainer.appendChild(movieCard);
+                }
+            })
+            .catch(error => console.error("Error loading XML:", error));
+    </script>
+
+<footer>
+    <p>&copy; 2025 My Netflix Clone | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>
