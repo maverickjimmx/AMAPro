@@ -1,0 +1,64 @@
+🎤 5-Minute Presentation Script: Neo Zeon Toys CMS Website
+======[Slide 1: Title Slide – Neo Zeon Toys Logo & Website Screenshot]
+
+	Speaker 1: Hello everyone! We’re excited to present our project today—Neo Zeon Toys, a CMS-powered website for a fictional collectible robot toy store.
+
+	Our goal was to create an easy-to-manage website for a niche online store, powered by XML, HTML, CSS, and JavaScript. The idea? Make product management simple, and the browsing experience slick.
+
+======[Slide 2: Meet the Team & Our Roles]
+
+	Speaker 2:
+
+	Let’s introduce the dream team behind this project!
+
+	Member 1 was our coding powerhouse—he brought the entire website to life, handling all the structure, logic, and functionality. He coded the entire website from the ground up using HTML, CSS, JavaScript, and XML 	This project literally wouldn’t exist without his dedication and technical skill.
+
+	Member 2 added some magic touch—focusing on design flair, content refinement, tackled minor code issues, ensured that everything looked polished and did a final functionality check to make sure everything was working 	as expected before wrapping up the project.
+
+	Member 3 was the creative spark—he came up with the idea to focus on robot collectibles as our niche, and helped shape the brand with solid design direction and helpful feedback along the way.
+
+	We each brought our strengths to the table, and this project really shows what a small, focused team can achieve when everyone plays to their strengths and works together. 💪
+
+======[Slide 3: Our Company – Neo Zeon Toys]
+
+	Speaker 3: So, let’s talk about our fictional company—Neo Zeon Toys.
+
+	We imagined a specialty store that caters to fans of mechs, robots, and sci-fi figures. Think anime-inspired collectibles, like Gundams and Transformers. A niche but passionate market.
+
+	The brand reflects that futuristic, techy feel while staying clean and user-friendly. The idea was to build a digital storefront that could easily be managed by someone running a business like this.
+
+======[Slide 4: How the CMS Works – XML Integration]
+
+	Speaker 1: Now here’s the cool part—our CMS is built using XML for the content, and JavaScript to load and render it dynamically.
+
+	We store all the product data—names, prices, images, and descriptions—in a structured XML file. Then we use JavaScript to parse it and display the items on the page.
+	
+	That means if a store owner wants to add or update a toy, they just edit the XML—no need to touch the HTML or code. Super beginner-friendly and super efficient.
+
+======[Slide 5: Live Demo – Frontend and Backend in Action]
+
+	Speaker 2: Let’s show it in action.
+
+	Here’s our homepage with all the robot collectibles neatly displayed.
+
+	If you scroll through, you’ll see names, prices, and pictures—all pulled from XML.
+
+	Now watch this: we’ll add a new product inside the XML file… refresh the page… and there it is, live on the website.
+
+	We wanted to show that you don’t need a huge tech stack to make something practical and dynamic.
+
+======[Slide 6: Team Highlights & Challenges]
+
+	Speaker 3: Each of us brought something important:
+
+	Member 1 built the CMS logic, wrote the code, and made it functional.
+
+	Member 2 refined the look, improved usability, and made sure everything felt professional and finished.
+
+	I helped define the project’s direction, decided the niche, and pitched in with some design feedback.
+
+	It was a learning experience for all of us—and a great exercise in collaboration.
+
+======[Slide 7: Thank You Slide]
+
+	Speaker 1: Thanks so much for your time! We’re proud of what we built and hope it shows that even with a small team and basic tools, you can create a practical, well-designed website.

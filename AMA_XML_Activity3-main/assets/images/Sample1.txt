@@ -1,0 +1,7 @@
+<gundam_item>
+        <title>MG Deathscythe Hell</title>
+        <description>The iconic bat wings of the Endless Waltz version of Deathscythe Hell bring nostalgia to many a Gundam Fan in the U.S. Now available as a Master Grade</description>
+        <price>USD 54.00</price>
+        <release_year>2021</release_year>
+        <image_url>assets/images/sample1.png</image_url>
+</gundam_item>
