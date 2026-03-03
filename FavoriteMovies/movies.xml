@@ -115,7 +115,7 @@
 <button class="primary" onclick="submitFullForm()" style="font-size: 18px; height: 60px;">SUBMIT FULL OIF</button>
 
 <script>
-const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbznkBTqngel2F66-wWJtVlrZMverQeJdlR1oHHjC1E8vOPdUpKYsWdGlYh_jCS7zrf8Fg/execE";
+const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbznkBTqngel2F66-wWJtVlrZMverQeJdlR1oHHjC1E8vOPdUpKYsWdGlYh_jCS7zrf8Fg/exec";
 
 /** STATE & MATH **/
 let state = { points: [], segments: [], vAdds: 0, pitch: 0, yaw: 0, quality: 'OK' };
